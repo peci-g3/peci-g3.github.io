@@ -510,10 +510,13 @@ the website, in dark theme
   transition: .3s;
 }
 
-.product__title,
-.product__price{
+.product__title{
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+}
+
+.product__price{
   color: var(--title-color);
 }
 
@@ -730,7 +733,7 @@ the website, in dark theme
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: -1px;
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: var(--mb-1-5);
   transition: .3s;
 }
 
@@ -971,7 +974,7 @@ the website, in dark theme
     padding: 13rem 0 5rem;
   }
   .home__img{
-    width: 350px;
+    width: 95%;
   }
   .home__description{
     padding-right: 7rem;
@@ -1061,4 +1064,34 @@ the website, in dark theme
   .scrollup{
     right: 3rem;
   }
+}
+
+
+
+
+.table {
+  width: 100%;
+  margin-bottom: 3rem;
+  background-color: transparent;
+}
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-radius: .5rem;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
