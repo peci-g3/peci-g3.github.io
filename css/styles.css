@@ -1034,7 +1034,7 @@ the website, in dark theme
     font-size: var(--h3-font-size);
   }
   .footer__container{
-    grid-template-columns: 1fr .5fr .5fr .5fr;
+    grid-template-columns: 1fr .5fr 1fr;
   }
   .footer__copy{
     margin: 7rem 0 2rem;
