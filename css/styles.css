@@ -1079,6 +1079,7 @@ the website, in dark theme
   padding: 0.75rem;
   vertical-align: top;
   border-radius: .5rem;
+  text-align: center;
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
