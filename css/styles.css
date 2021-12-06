@@ -1096,3 +1096,13 @@ the website, in dark theme
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
+
+.a--link{
+  color: var(--text-color);
+  font-weight: var(--font-medium);
+  transition: .3s;
+}
+
+.a--link:hover{
+  color: var(--text-color-light);
+}
