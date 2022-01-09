@@ -1080,6 +1080,7 @@ the website, in dark theme
   vertical-align: top;
   border-radius: .5rem;
   text-align: center;
+  vertical-align: middle;
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
